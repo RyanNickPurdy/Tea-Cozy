@@ -1,0 +1,146 @@
+html {
+  font-family: helvetica;
+  background-color: black;
+  color: SeaShell;
+  opacity: 0.9 !important;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid SeaShell;
+  background-color: white;
+  font-size: 14px;
+  background-color: black;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 10px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+  padding-right: 4 0px;
+  text-decoration: underline;
+  font-size: 22px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#wrap {
+	flex-wrap: wrap;
+}
+
+.banner {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  background-size: cover;
+  display: flex;
+  height: 750px;
+  align-items: center;
+  padding-top: 69px;
+}
+
+#banner-row {
+  text-align: center;
+  padding: 20px;
+  background-color: black;
+  width: 100%;
+  color: white;
+}
+
+.thumbnail-section {
+  text-align: center;
+}
+
+.thumbnail-1 {
+  height: 200px;
+  width: 300px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-berryblitz.jpg);
+  background-size: cover;
+}
+
+.thumbnail-2 {
+  height: 200px;
+  width: 300px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-spiced-rum.jpg);
+  background-size: cover;
+}
+
+.thumbnail-3 {
+  height: 200px;
+  width: 300px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-donut.jpg);
+  background-size: cover;
+}
+
+.thumbnail-4 {
+  height: 200px;
+  width: 300px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-donut.jpg);
+  background-size: cover;
+}
+
+.thumbnail-5 {
+  height: 200px;
+  width: 300px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-bedford-bizarre.jpg);
+  background-size: cover;
+}
+
+#thumbnail-text {
+  padding-top: 215px;
+  padding-bottom: 10px;
+}
+
+.thumbnail-space {
+  margin-bottom: 85px;
+}
+
+.location-box {
+  width: 300px;
+  background-color: black;
+  text-align: center;
+  margin: 20px;
+  line-height: 200%;
+}
+
+.banner-2 {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-area {
+  text-align: center;
+  height: 200px;
+}
+
+footer {
+  padding-left: 20px;
+}
